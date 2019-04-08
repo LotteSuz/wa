@@ -1,0 +1,86 @@
+$background: #85ad83;
+
+body{
+  background-color: $background;
+}
+
+.row > div {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+ul{
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  position: relative;
+  left: 400px;
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  justify-content: space-between;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+/* Style for the sidebar menu*/
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style for the sidebar menu links*/
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* Color change links in case of hover*/
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Change sidebar for smaller screens*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#first {
+  .col-sm{
+      margin-left: 50px;
+      margin-bottom: 50px;
+  }
+  .pict {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+#second {
+  margin-left: 450px;
+}
+
+#third {
+  margin-left: 250px;
+}
