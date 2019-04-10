@@ -1,4 +1,5 @@
 $background: #85ad83;
+$highlight: #c0ccbd;
 
 body{
   background-color: $background;
@@ -83,4 +84,13 @@ img {
 
 #third {
   margin-left: 250px;
+}
+
+#item1, #item3 {
+  font-weight: bold;
+}
+
+#item2 {
+  @extend #item1;
+  background-color: $highlight;
 }

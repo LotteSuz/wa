@@ -86,4 +86,12 @@ img {
   margin-left: 250px;
 }
 
+#item1, #item2, #item3 {
+  font-weight: bold;
+}
+
+#item2 {
+  background-color: #c0ccbd;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
