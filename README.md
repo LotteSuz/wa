@@ -1,4 +1,4 @@
-# Project 0
+# Project 0 :palm_tree:
 
 Web Programming with Python and JavaScript
 
